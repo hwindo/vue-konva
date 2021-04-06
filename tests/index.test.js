@@ -1065,7 +1065,7 @@ describe('test reconciler', () => {
     );
     const layer = vm.$refs.layer.getNode();
 
-    debugger;
+    // debugger;
 
     expect(layer.children[0].name()).to.equal('rect1');
     expect(layer.children[1].name()).to.equal('rect2');

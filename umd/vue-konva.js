@@ -447,7 +447,7 @@ var CONTAINERS = {
       return this.__konvaNode;
     },
     initKonva: function initKonva() {
-      debugger;
+      // debugger;
       var NodeClass = window.Konva[nameNode];
 
       if (!NodeClass) {

@@ -74,7 +74,7 @@ export default function (nameNode) {
         return this.__konvaNode;
       },
       initKonva() {
-        debugger;
+        // debugger;
         const NodeClass = window.Konva[nameNode];
 
         if (!NodeClass) {
